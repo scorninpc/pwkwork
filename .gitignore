@@ -1,0 +1,2 @@
+# exclude everything
+app/Tmp/template_c/*

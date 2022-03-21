@@ -1,0 +1,26 @@
+{
+	"name": "scorninpc/pwkwork",
+	"description": "Framework de desenvolvimento desktop em PHP",
+	"homepage": "https://andor.com.br",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Bruno Pitteli Gonçalves",
+			"email": "bruno@pitteli.com.br",
+			"homepage": "https://www.andor.com"
+		}
+	],
+	"config": {
+		"vendor-dir": "./lib"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"PWKWork\\": "lib/PWKWork/"
+		}
+	},
+	"require": {
+		"kint-php/kint": "~4.1",
+		"smarty/smarty": "~3.1"
+	}
+}
