@@ -1,5 +1,7 @@
 <?php
 
+ini_set("display_errors", "On");
+error_reporting(E_ALL);
 
 defined("APPLICATION_PATH") || define("APPLICATION_PATH", realpath(__DIR__));
 

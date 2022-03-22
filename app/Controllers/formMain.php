@@ -6,6 +6,15 @@ class formMain extends \PWKWork\Controller
 {
 	public function onload()
 	{
-		$this->view->ok = "OK";
+		$window = new \PWKWork\Widgets\Window();
+
+		$panel = new \PWKWork\Widgets\Panel();
+
+		$window->setChild($panel);
+
+
+
+
+		$this->view->window = $window->parse();
 	}
 }
