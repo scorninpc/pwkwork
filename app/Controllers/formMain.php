@@ -8,9 +8,11 @@ class formMain extends \PWKWork\Controller
 	{
 		$window = new \PWKWork\Widgets\Window();
 
-		$panel = new \PWKWork\Widgets\Panel();
+		$vbox = new \PWKWork\Widgets\VBox();
+		$vbox->addChild(new \PWKWork\Widgets\Label("Label 1"));
+		$vbox->addChild(new \PWKWork\Widgets\Panel());
 
-		$window->setChild($panel);
+		$window->setChild($vbox);
 
 
 

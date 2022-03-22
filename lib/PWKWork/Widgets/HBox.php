@@ -5,7 +5,7 @@ namespace PWKWork\Widgets;
 class HBox
 {
 	protected $childs = [];
-	
+
 	public function addChild($widget)
 	{
 		$this->childs[] = $widget;
@@ -13,6 +13,7 @@ class HBox
 
 	public function parse()
 	{
+		
 		$template = "<div class=\"row\">
 
 			<div class=\"col-6 bg-danger\"> aa </div>
