@@ -5,4 +5,4 @@ Framework to work with pwkbridge (unpublished yet)
 Clone, and run `composer update` to download dependencies
 
 # Tests
-Some tests with interface
+Some tests with interface, using low html and bootstrap, to have ideas for widgets
